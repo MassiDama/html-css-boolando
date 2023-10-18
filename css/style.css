@@ -6,7 +6,7 @@
 }
 
 /* stili header */
-header {
+.barra-fissa {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -23,3 +23,59 @@ header {
 .logo img {
     width: 150px;
 }
+
+
+/* stili main shop */
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 30px 20%;
+    
+}
+
+.col-shop {
+    width: calc(100%/3);
+    background-color: brown;
+    min-height: 300px;
+    border: 1px solid white;
+    position: relative;
+}
+
+
+.img-shop {
+    width: 300px;
+}
+
+.content-shop .fa-heart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.label {
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+    padding: 5px;
+    background-color: hsl(0deg 100% 50%);
+    color: white;
+}
+
+.label-green {
+    background-color: hsl(120.47deg 100% 25.1%);
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+    padding: 5px;
+    color: white;
+}
+
+/* stili descrizione prodotto */
+.descrizione-prodotto {
+    display: flex;
+    flex-direction: column;
+}
+
