@@ -26,16 +26,22 @@
 
 
 /* stili main shop */
+main {
+    max-width: 70%;
+    margin: 20px 20%;
+    
+
+}
+
 .row {
     display: flex;
     justify-content: center;
-    margin: 20px 20%;
+    
     
 }
 
 .col-shop {
     width: calc(100%/3);
-    background-color: brown;
     min-height: 300px;
     border: 1px solid white;
     position: relative;
@@ -44,8 +50,20 @@
 
 .img-shop {
     max-width: 100%;
+    position: relative;
 }
 
+.img-shop2 {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.content-shop:hover .img-shop2 {
+    display: flex;
+
+}
 
 .content-shop .fa-heart {
     position: absolute;
@@ -78,5 +96,32 @@
 .descrizione-prodotto {
     display: flex;
     flex-direction: column;
+}
+
+/* stili footer */
+footer {
+    background-color: hsl(0deg 0% 10.2%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.info li {
+   
+   /* debug */
+    padding: 0 5px;
+
 }
 
