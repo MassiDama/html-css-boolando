@@ -11,6 +11,13 @@
 
 
 /* stili header */
+.main-header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
+}
+
 .barra-fissa {
     display: flex;
     justify-content: space-evenly;
@@ -32,10 +39,7 @@
 
 /* stili main shop */
 main {
-    max-width: 80%;
     margin: 20px 15%; 
-    
-
 }
 
 .row {
