@@ -29,7 +29,7 @@
 .row {
     display: flex;
     justify-content: center;
-    margin: 30px 20%;
+    margin: 20px 20%;
     
 }
 
@@ -43,8 +43,9 @@
 
 
 .img-shop {
-    width: 300px;
+    max-width: 100%;
 }
+
 
 .content-shop .fa-heart {
     position: absolute;
